@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Research interests in world models, embodied intelligence, uncertainty-aware planning, and continual learning.">
+  <meta name="theme-color" content="#faf9f6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ltlangz1 — World Models & Embodied AI">
+  <meta property="og:description" content="Learning representations of the world for perception, prediction, and action.">
+  <meta property="og:url" content="https://ltlangz1.github.io/">
+  <link rel="canonical" href="https://ltlangz1.github.io/">
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./site-data.js" defer></script>
+  <script src="./app.js" defer></script>
+  <title>ltlangz1 — World Models & Embodied AI</title>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="masthead">
+    <a class="wordmark" href="#about" aria-label="Home"><span class="wordmark-symbol" aria-hidden="true">∴</span><span data-person="name">ltlangz1</span></a>
+    <nav aria-label="Main navigation" class="navigation">
+      <a href="#research" data-i18n="navResearch">Research</a>
+      <a href="#perspective" data-i18n="navPerspective">Perspective</a>
+      <a href="#publications" id="publications-nav" hidden data-i18n="navPublications">Publications</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+      <span class="nav-divider" aria-hidden="true"></span>
+      <button class="language-switch" id="language-switch" type="button" aria-label="Switch to Chinese" hidden>中文</button>
+    </nav>
+  </header>
+
+  <div class="page-grid">
+    <aside class="identity" aria-label="Researcher profile">
+      <div class="identity-sticky">
+        <div class="identity-illustration" aria-hidden="true">
+          <svg viewBox="0 0 220 164" fill="none">
+            <path d="M20 124 106 81 198 121 112 162Z" fill="#eef1f1"/>
+            <path d="m20 82 86-43 92 40-86 41Z" stroke="#b9c5cc"/>
+            <path d="m20 103 86-43 92 40-86 41Z" stroke="#d0d8dc"/>
+            <path d="M106 39v85M20 82v42m178-45v42" stroke="#d0d8dc" stroke-dasharray="3 4"/>
+            <path d="M49 105c25-2 25-35 58-30 26 4 30 27 61 17" stroke="#294e68" stroke-width="2"/>
+            <path d="M49 105c32 8 36-17 58-17 24 0 33 18 61 4" stroke="#7892a2" stroke-dasharray="3 4"/>
+            <circle cx="49" cy="105" r="4" fill="#294e68"/>
+            <circle cx="107" cy="75" r="4" fill="#faf9f6" stroke="#294e68" stroke-width="1.5"/>
+            <circle cx="168" cy="92" r="4" fill="#294e68"/>
+            <path d="M106 16v11m-5-5h10" stroke="#a6b6bf"/>
+          </svg>
+        </div>
+        <h1 data-person="name">ltlangz1</h1>
+        <p class="profile-field" data-i18n="profileField">World Models<br> &amp; Embodied AI</p>
+        <p class="affiliation" id="affiliation" hidden></p>
+        <div class="profile-links" id="profile-links">
+          <a href="https://github.com/ltlangz1" rel="me">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="profile-footnote"><span class="small-rule"></span><p data-i18n="profileNote">Perception, prediction,<br>and action.</p></div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <section class="intro" id="about" aria-labelledby="intro-title">
+        <p class="eyebrow" data-i18n="introEyebrow">WORLD MODELS · EMBODIED INTELLIGENCE</p>
+        <h2 class="intro-title" id="intro-title" data-i18n="introTitle">Understanding the world.<br>Learning to act.</h2>
+        <p class="intro-body" data-i18n="introBody">My research interests lie at the intersection of world models and embodied intelligence. I study how an agent can maintain a coherent understanding of a changing environment, reason about what it cannot observe, and use predictions to guide action.</p>
+        <p class="intro-secondary" data-i18n="introSecondary">I am particularly interested in multi-view scene dynamics, decision-making under partial observability, and adaptation that preserves previously learned knowledge.</p>
+        <a class="text-link intro-link" href="#research"><span data-i18n="explore">Explore my research interests</span><span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="research-title" data-i18n="researchTitle">Research directions</h2></div>
+        <p class="section-deck" data-i18n="researchDeck">Three connected questions about learning models of the physical world.</p>
+
+        <article class="research-item">
+          <div class="research-visual" aria-hidden="true">
+            <svg viewBox="0 0 180 126" fill="none">
+              <path d="M13 97h154M37 111l54-93 53 93" stroke="#d8dfe2"/>
+              <path d="m30 84 56-51 62 49-59 32Z" fill="#eff2f3" stroke="#c0cdd4"/>
+              <path d="m87 33 2 81m-59-30 118-2" stroke="#c0cdd4" stroke-dasharray="3 4"/>
+              <rect x="77" y="66" width="22" height="17" rx="2" fill="#faf9f6" stroke="#294e68" stroke-width="1.5"/>
+              <path d="m88 66 9-7 21 1-19 6m0 0 19-6v17l-19 6" stroke="#294e68" stroke-width="1.5"/>
+              <path d="m20 38 57 32m79-32-38 25" stroke="#7d98aa" stroke-dasharray="3 3"/>
+              <path d="m12 29 14 5v12l-14 5Zm157 0-14 5v12l14 5Z" fill="#e0e7eb" stroke="#7d98aa"/>
+              <circle cx="88" cy="75" r="3" fill="#294e68"/>
+            </svg>
+            <span class="figure-index">SPACE × TIME</span>
+          </div>
+          <div class="research-copy">
+            <p class="research-label" data-i18n="r1Label">Representation &amp; dynamics</p>
+            <h3 data-i18n="r1Title">A coherent world across views and time</h3>
+            <p data-i18n="r1Body">How can multiple observations refer to the same evolving scene? I am interested in persistent scene representations, object identity, and the consistency of multi-view predictions.</p>
+            <details class="research-detail"><summary><span data-i18n="questionLabel">A question I care about</span><span class="details-sign" aria-hidden="true">+</span></summary><p data-i18n="r1Question">When an object becomes occluded or changes viewpoint, what should a model remember, and which new observations should revise that memory?</p></details>
+          </div>
+        </article>
+
+        <article class="research-item">
+          <div class="research-visual" aria-hidden="true">
+            <svg viewBox="0 0 180 126" fill="none">
+              <path d="M20 105V22m0 83h144" stroke="#c0cdd4"/>
+              <path d="M26 92c31-4 36-56 65-56s37 44 66 39v17c-29 6-40-23-66-23S55 101 26 103Z" fill="#e4ecef"/>
+              <path d="M26 98c32-5 36-45 65-45s37 35 66 30" stroke="#294e68" stroke-width="1.8"/>
+              <path d="M26 98c30-12 45-11 63-18s41-45 68-47" stroke="#879da9" stroke-dasharray="4 4"/>
+              <path d="M89 22v82" stroke="#bccbd3" stroke-dasharray="3 4"/>
+              <circle cx="48" cy="82" r="3.5" fill="#294e68"/><circle cx="73" cy="60" r="3.5" fill="#294e68"/>
+              <circle cx="115" cy="70" r="3.5" fill="#faf9f6" stroke="#294e68" stroke-width="1.5"/>
+            </svg>
+            <span class="figure-index">BELIEF → ACTION</span>
+          </div>
+          <div class="research-copy">
+            <p class="research-label" data-i18n="r2Label">Uncertainty &amp; decision-making</p>
+            <h3 data-i18n="r2Title">Planning beyond what is visible</h3>
+            <p data-i18n="r2Body">An object that is not observed may still be present. I study how belief over hidden states and alternative futures can support decisions, particularly in autonomous driving and embodied planning.</p>
+            <details class="research-detail"><summary><span data-i18n="questionLabel">A question I care about</span><span class="details-sign" aria-hidden="true">+</span></summary><p data-i18n="r2Question">Which uncertainties actually change a decision, and when is obtaining another observation more valuable than taking an action immediately?</p></details>
+          </div>
+        </article>
+
+        <article class="research-item">
+          <div class="research-visual" aria-hidden="true">
+            <svg viewBox="0 0 180 126" fill="none">
+              <path d="M22 91h133M36 105V22" stroke="#d4dde2"/>
+              <rect x="57" y="33" width="36" height="25" rx="3" fill="#edf1f3" stroke="#91a8b5"/>
+              <rect x="57" y="74" width="36" height="25" rx="3" fill="#edf1f3" stroke="#91a8b5"/>
+              <rect x="118" y="53" width="36" height="25" rx="3" fill="#dce7ed" stroke="#294e68" stroke-width="1.5"/>
+              <path d="M93 46h11v20h14M93 86h11V66" stroke="#91a8b5"/>
+              <path d="M137 40c-4-18-29-25-43-15" stroke="#294e68" stroke-width="1.5"/>
+              <path d="m99 19-7 7 10 2" stroke="#294e68" stroke-width="1.5"/>
+              <circle cx="75" cy="45" r="3" fill="#91a8b5"/><circle cx="75" cy="86" r="3" fill="#91a8b5"/><circle cx="136" cy="65" r="3" fill="#294e68"/>
+            </svg>
+            <span class="figure-index">ADAPT × RETAIN</span>
+          </div>
+          <div class="research-copy">
+            <p class="research-label" data-i18n="r3Label">Continual learning &amp; generalization</p>
+            <h3 data-i18n="r3Title">Learning what changed, keeping what matters</h3>
+            <p data-i18n="r3Body">When the environment changes, an agent needs to adapt without overwriting useful knowledge. I am interested in identifying what changed, deciding when to learn, and transferring knowledge across new conditions.</p>
+            <details class="research-detail"><summary><span data-i18n="questionLabel">A question I care about</span><span class="details-sign" aria-hidden="true">+</span></summary><p data-i18n="r3Question">What interaction evidence is needed before committing a lasting model update, and how can we evaluate adaptation and retention together?</p></details>
+          </div>
+        </article>
+        <p class="figure-caption" data-i18n="figureCaption">Conceptual illustrations of research interests; not experimental results.</p>
+      </section>
+
+      <section class="perspective-section" id="perspective" aria-labelledby="perspective-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">02</span><h2 id="perspective-title" data-i18n="perspectiveTitle">Research perspective</h2></div>
+        <blockquote data-i18n="perspectiveQuote">A world model should be judged not just by the futures it predicts, but by the decisions it helps an agent make.</blockquote>
+        <div class="perspective-body">
+          <p data-i18n="perspectiveBody">This motivates a connected view of representation, uncertainty, and control: what a model remembers shapes what it predicts; what remains uncertain shapes how an agent should act; and interaction provides evidence for what the model should learn next.</p>
+          <p data-i18n="perspectiveMethods">Across these questions, I value explicit assumptions, matched experimental controls, and evaluation that connects model behavior to downstream decisions.</p>
+        </div>
+        <p class="interest-line"><span data-i18n="interestsLabel">Interests</span><span data-i18n="interests">World models · Model-based learning · Multi-view generation · Belief-space planning · Continual adaptation</span></p>
+      </section>
+
+      <section class="publications-section" id="publications" aria-labelledby="publications-title" hidden>
+        <div class="section-heading"><span class="section-number" aria-hidden="true">03</span><h2 id="publications-title" data-i18n="publicationsTitle">Selected publications</h2></div>
+        <div id="publications-list"></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading"><span class="section-number" id="contact-number" aria-hidden="true">03</span><h2 id="contact-title" data-i18n="contactTitle">Contact</h2></div>
+        <p data-i18n="contactBody">For conversations about world models, embodied intelligence, and learning through interaction:</p>
+        <div class="contact-links" id="contact-links"><a href="https://github.com/ltlangz1" class="text-link">GitHub / ltlangz1 <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <span>© <span id="copyright-year">2026</span> <span data-person="name">ltlangz1</span></span>
+    <a href="https://github.com/ltlangz1/ltlangz1.github.io" data-i18n="source">Website source ↗</a>
+    <details class="colophon"><summary data-i18n="colophonLabel">Design notes</summary><p><span data-i18n="colophonBody">An original design informed by the research-first structure of academic homepages, including</span> <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>, <a href="https://danijar.com/">Danijar Hafner</a>, <a href="https://jonbarron.info/">Jon Barron</a>. <span data-i18n="colophonEnd">No affiliation or endorsement is implied.</span></p></details>
+  </footer>
+</body>
+</html>
