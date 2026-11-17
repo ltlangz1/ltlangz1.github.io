@@ -9,7 +9,7 @@ window.ACADEMIC_PROFILE = {
   affiliation: { en: "Beijing Jiaotong University", zh: "北京交通大学" },
   department: { en: "Computer Science", zh: "计算机科学" },
   // Optional portrait, e.g. "./assets/portrait.jpg" (square, ≥ 480 px). A generated mark is used when empty.
-  portrait: "",
+  portrait: "./assets/portrait.jpg",
   github: "https://github.com/ltlangz1",
   email: "",
   scholar: "",
